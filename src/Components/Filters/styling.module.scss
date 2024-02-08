@@ -1,0 +1,40 @@
+.filters {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: #eeeeee;
+	padding: 14px 20px;
+	border-radius: 8px;
+	@media (max-width: 800px) {
+		border-radius: 5px;
+		padding: 12px 10px;
+		margin-top: 20px;
+		margin-bottom: 16px;
+	}
+	.container {
+		font-size: 16px;
+		color: hsl(0, 0%, 10%);
+		font-weight: 500;
+
+		@media (max-width: 800px) {
+			font-size: 12px;
+			display: flex;
+			flex-direction: column;
+		}
+		select {
+			margin-left: 10px;
+			width: 86px;
+			font-size: 15px;
+			border-radius: 4px;
+			background-color: transparent;
+			@media (max-width: 800px) {
+				width: 86px;
+				font-size: 15px;
+				margin-left: 0px;
+				margin-top: 5px;
+			}
+		}
+	}
+}
