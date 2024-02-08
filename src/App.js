@@ -44,7 +44,7 @@ const App = () => {
           <FlightList flights={flights} />
         </div>
       ) : (
-        <h1> NO DATA :(</h1>
+        <h1> Loading...</h1>
       )}
     </div>
   );
